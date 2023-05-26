@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XM</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <a href="#" class="logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="140" height="49" viewBox="0 0 140 49" fill="none"><path fill="#fff" fill-rule="evenodd" d="m62.139 0 7.832 15.83 8.639-7.915L74.883 0H62.14ZM85.543 0l-30.89 36.185h12.304l8.073-9.612 4.45 9.612h21.206l2.848-16.124 2.572 8.902 7.691-9.244L108.12 0H85.543Zm-2.255 17.325 13-15.015-5.476 30.992-7.524-15.977Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M126.583 0 106.31 31.257h10.17l7.718-12.232-2.98 17.16h10.254L137.754 0h-11.171Z" clip-rule="evenodd"/><path fill="red" fill-rule="evenodd" d="M17.8 1.474c-.148 1.573-.397 3.423-.23 5.098.237 2.403 1.72 3.633 3.66 4.4.587.231 1.44.573 2.211.401.356-.08.602-.323.825-.467.656-.422 1.467-.814 2.44-.933 1.459-.179 2.84.2 3.926.5 1.033.287 2.384.704 3.262 1.233.484.289.832.727 1.09 1.168.45.763.632 2.069 1.65 2.297.248-1.048.048-2.208.1-3.367.045-1.066.236-2.148.427-3.097a42.048 42.048 0 0 1 1.089-4.2c.066-.21.257-1.282.66-1.132.177.066.138.506.131.733-.024.891-.096 1.546-.164 2.432-.17 2.192-.196 4.632.198 6.5.213 1.01.451 1.976.363 3.132-.023.296-.175.639-.232.965-.046.272 0 .495-.065.703-.1.316-.365.718-.594 1.065-.058.087-.168.294-.297.534-.114.208-.308.312-.297.531.015.338.676 1 1.022 1.1 1.476.422 3.11.646 3.99 1.532.521.524.938 1.2 1.023 2.135.075.793-.188 1.457-.495 2.165-.208.482-.406 1.668-.757 1.9-.26.172-.683.065-.99.235-.094.424-.292.747-.33 1.231-.25.357-.623.59-.89.932.085.788-.405.992-1.056 1.035-1.926 1.589-5.756.538-7.388-.534-.808.583-1.708 1.072-1.615 2.567.696.395 1.244.854 2.078 1.132 1.098.371 2.451.171 3.166.833.056.053.11.118.166.178h5.52l15.681-18.405L48.51.15H17.906c-.033.456-.065.894-.106 1.324" clip-rule="evenodd"/><path fill="red" fill-rule="evenodd" d="M3.42 36.233c.99-1.054 2.428-1.78 3.826-2.4 1.09-.482 2.208-.896 3.067-1.598.381-.312.68-.635 1.12-.702.869-.125 1.712.26 2.377.402 1.797.384 3.17-.523 4.057-1.468.451-.478 1.026-.941 1.286-1.6.328-.824.182-1.858.197-2.897.032-2.08.77-3.543.792-5.465.012-.986-.225-1.959-.098-2.968-1.026-.533-2.215-1.045-3.035-1.964-.798-.897-1.722-2.568-1.451-4.033-.609-.946-1.148-2.235-1.155-3.733-.007-1.48.437-2.716.825-4.067.34-1.184.683-2.382 1.046-3.59H9.39L1.636 36.41h1.636c.05-.057.095-.12.148-.177" clip-rule="evenodd"/><mask id="a" width="7" height="7" x="0" y="42" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" fill-rule="evenodd" d="M0 43h6.528v5.124H0V43Z" clip-rule="evenodd"/></mask><g mask="url(#a)"><path fill="#fff" fill-rule="evenodd" d="M1.073 43h1.54l.392 3.71h.014L4.972 43h1.556l-1.073 5.124H4.411l.923-4.077H5.32l-2.145 4.077h-.852l-.49-4.077h-.015l-.76 4.077H0L1.073 43Z" clip-rule="evenodd"/></g><path fill="#fff" fill-rule="evenodd" d="M7.755 43h3.872l-.192.947H8.679l-.228 1.098h2.55l-.184.876h-2.55l-.263 1.255h2.799l-.2.948H6.69L7.755 43ZM12.748 43h1.541l.391 3.71h.014L16.648 43h1.555l-1.072 5.124h-1.044l.923-4.077h-.014l-2.146 4.077h-.852l-.49-4.077h-.014l-.76 4.077h-1.059L12.748 43ZM20.361 45.074h1.265c.405 0 .753-.23.753-.675 0-.387-.227-.524-.59-.524H20.61l-.248 1.199Zm-.454 2.175h1.4c.504 0 .873-.28.873-.826 0-.538-.476-.581-.88-.581h-1.095l-.298 1.407Zm-.192-4.25h2.131c1.016 0 1.648.223 1.648 1.2 0 .58-.355 1.119-.952 1.191v.014c.483.13.753.546.753 1.04 0 1.113-.923 1.68-1.939 1.68H18.65L19.715 43ZM25.091 43h3.871l-.191.947h-2.756l-.228 1.098h2.55l-.184.876h-2.55l-.263 1.255h2.799l-.2.948h-3.913L25.09 43ZM30.844 45.318h1.03c.59 0 1.15-.237 1.15-.811 0-.553-.383-.632-.823-.632h-1.059l-.298 1.443ZM30.204 43h2.423c.916 0 1.513.352 1.513 1.342 0 .696-.483 1.277-1.165 1.378v.014c.419.13.525.502.525.905 0 .23-.035.574-.035.89 0 .23.014.445.07.595H32.45a1.49 1.49 0 0 1-.05-.345c0-.344.057-.696.057-1.04 0-.495-.29-.617-.731-.617h-1.052l-.419 2.002H29.14L30.205 43ZM39.295 47.298c1.094 0 1.641-1.176 1.641-2.145 0-.718-.313-1.328-1.13-1.328-1.143 0-1.661 1.17-1.661 2.153 0 .703.34 1.32 1.15 1.32Zm.505-4.42c1.37 0 2.251.76 2.251 2.196 0 1.686-.994 3.172-2.77 3.172-1.42 0-2.252-.825-2.252-2.268 0-1.658 1.059-3.1 2.77-3.1ZM43.606 43h3.608l-.206.947h-2.486l-.249 1.184h2.174l-.184.876h-2.167l-.447 2.117h-1.116L43.606 43ZM51.22 43.947h-1.592l.199-.947h4.233l-.199.947h-1.52l-.866 4.177h-1.122l.866-4.177ZM55.65 45.318h1.03c.59 0 1.151-.237 1.151-.811 0-.553-.383-.632-.824-.632H55.95l-.298 1.443ZM55.012 43h2.423c.916 0 1.513.352 1.513 1.342 0 .696-.483 1.277-1.165 1.378v.014c.419.13.525.502.525.905 0 .23-.035.574-.035.89 0 .23.014.445.07.595h-1.086a1.495 1.495 0 0 1-.05-.345c0-.344.057-.696.057-1.04 0-.495-.291-.617-.731-.617H55.48l-.419 2.002h-1.115L55.011 43ZM61.489 46.143h1.356l-.248-2.038h-.015l-1.093 2.038ZM62.227 43h1.144l.845 5.124h-1.108l-.163-1.141h-1.897l-.64 1.141H59.23L62.227 43ZM66.247 47.176h.859c1.137 0 1.769-.904 1.769-1.987 0-.74-.313-1.242-1.108-1.242h-.839l-.681 3.23ZM66.005 43h1.833c1.413 0 2.152.74 2.152 1.995 0 1.787-.98 3.129-2.934 3.129h-2.123L66.005 43ZM71.374 43h1.123l-1.073 5.124h-1.122L71.374 43ZM73.647 43h1.15l1.379 3.645h.014L76.915 43h1.022l-1.072 5.124H75.75l-1.392-3.596h-.015l-.724 3.596h-1.045L73.647 43Z" clip-rule="evenodd"/><mask id="b" width="6" height="7" x="78" y="42" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" fill-rule="evenodd" d="M78.377 42.878h4.922v5.368h-4.922v-5.368Z" clip-rule="evenodd"/></mask><g mask="url(#b)"><path fill="#fff" fill-rule="evenodd" d="M81.921 47.6h-.014c-.334.46-.81.646-1.279.646-1.42 0-2.251-.825-2.251-2.268 0-1.658 1.058-3.1 2.77-3.1 1.186 0 2.152.56 2.152 1.816h-1.115c-.028-.618-.412-.869-1.03-.869-1.144 0-1.662 1.17-1.662 2.153 0 .704.34 1.32 1.15 1.32.846 0 1.215-.452 1.407-1.105h-1.172l.178-.84h2.152l-.583 2.77h-.703V47.6Z" clip-rule="evenodd"/></g><path fill="#fff" fill-rule="evenodd" d="M87.63 45.411h1.137c.561 0 .916-.287.916-.897 0-.517-.397-.639-.788-.639h-.952l-.312 1.536ZM87.007 43h2.031c1.023 0 1.762.358 1.762 1.492s-.924 1.795-1.975 1.795h-1.378l-.384 1.837h-1.115L87.006 43ZM93.795 47.298c1.094 0 1.641-1.176 1.641-2.145 0-.718-.312-1.328-1.129-1.328-1.144 0-1.662 1.17-1.662 2.153 0 .703.34 1.32 1.15 1.32Zm.505-4.42c1.37 0 2.252.76 2.252 2.196 0 1.686-.995 3.172-2.77 3.172-1.421 0-2.252-.825-2.252-2.268 0-1.658 1.058-3.1 2.77-3.1ZM98.056 43h1.123l-1.073 5.124h-1.122L98.057 43ZM100.329 43h1.151l1.378 3.645h.014l.725-3.645h1.022l-1.072 5.124h-1.116l-1.392-3.596h-.014l-.724 3.596h-1.045L100.33 43ZM107.055 43.947h-1.591l.199-.947h4.233l-.199.947h-1.52l-.867 4.177h-1.122l.867-4.177Z" clip-rule="evenodd"/><mask id="c" width="6" height="7" x="112" y="42" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" fill-rule="evenodd" d="M112.154 42.878h4.922v5.368h-4.922v-5.368Z" clip-rule="evenodd"/></mask><g mask="url(#c)"><path fill="#fff" fill-rule="evenodd" d="M115.698 47.6h-.014a1.54 1.54 0 0 1-1.279.646c-1.42 0-2.251-.825-2.251-2.268 0-1.658 1.058-3.1 2.77-3.1 1.186 0 2.152.56 2.152 1.816h-1.115c-.029-.618-.412-.869-1.03-.869-1.144 0-1.662 1.17-1.662 2.153 0 .704.341 1.32 1.15 1.32.846 0 1.215-.452 1.407-1.105h-1.172l.177-.84h2.153l-.583 2.77h-.703V47.6Z" clip-rule="evenodd"/></g><path fill="#fff" fill-rule="evenodd" d="M119.291 45.318h1.03c.59 0 1.151-.237 1.151-.811 0-.553-.384-.632-.824-.632h-1.058l-.299 1.443ZM118.652 43h2.422c.916 0 1.513.352 1.513 1.342 0 .696-.483 1.277-1.165 1.378v.014c.419.13.526.502.526.905 0 .23-.036.574-.036.89 0 .23.014.445.071.595h-1.087a1.515 1.515 0 0 1-.049-.345c0-.344.056-.696.056-1.04 0-.495-.291-.617-.731-.617h-1.052l-.418 2.002h-1.116L118.652 43ZM125.612 47.298c1.094 0 1.641-1.176 1.641-2.145 0-.718-.313-1.328-1.129-1.328-1.144 0-1.663 1.17-1.663 2.153 0 .703.341 1.32 1.151 1.32Zm.504-4.42c1.371 0 2.252.76 2.252 2.196 0 1.686-.994 3.172-2.77 3.172-1.421 0-2.252-.825-2.252-2.268 0-1.658 1.058-3.1 2.77-3.1ZM133.588 45.978c-.306 1.471-.867 2.268-2.444 2.268-.987 0-1.996-.402-1.996-1.522 0-.258.057-.509.107-.76l.618-2.964h1.115l-.618 2.964c-.035.158-.107.48-.107.646 0 .258.185.689.952.689.909 0 1.08-.488 1.243-1.264l.633-3.035h1.115l-.618 2.978Z" clip-rule="evenodd"/><mask id="d" width="6" height="7" x="134" y="42" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" fill-rule="evenodd" d="M134.361 43h4.852v5.124h-4.852V43Z" clip-rule="evenodd"/></mask><g mask="url(#d)"><path fill="#fff" fill-rule="evenodd" d="M136.045 45.411h1.136c.561 0 .916-.287.916-.897 0-.517-.397-.639-.788-.639h-.952l-.312 1.536ZM135.42 43h2.031c1.023 0 1.762.358 1.762 1.492s-.924 1.795-1.975 1.795h-1.378l-.384 1.837h-1.115L135.42 43Z" clip-rule="evenodd"/></g></svg>
+            </a>
+
+            <nav class="nav hidden-mobile">
+              <ul>
+                <li>
+                  <a href="#">XM Homepage</a>
+                </li>
+
+                <li>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <div class="container hero__container">
+            <div class="hero__image">
+              <img class="hidden-mobile" src="assets/hero-desktop.png" alt="">
+
+              <img class="hidden-desktop" src="assets/hero-mobile.png" alt="">
+            </div>
+
+            <div class="hero__image-zero hidden-desktop">
+              <img src="assets/zero-mobile.png" alt="">
+            </div>
+
+            <div class="hero__shadow">
+              <img src="assets/egg-shadow.png" alt="">
+            </div>
+            
+            <div class="hero__overlay"></div>
+            
+            <div class="hero__content">
+              <p class="hero__subtitle">Trade With</p>
+
+              <h2 class="hero__title">
+                <strong>Zero Swaps</strong> on AII XM Ultra Low<br />
+
+                Accounts for more than 25 instruments
+              </h2>
+
+              <div class="hero__entry">
+                <p>Enjoy spreads as low as 0.6 pips and leverage up to 1000:1 on instruments like EURUSD, USDJPY, EURJPY, GBPUSD, and Gold.</p>
+              </div>
+              
+              <a href="#" class="btn hero__btn">Open Account</a>
+
+              <p class="p1">New to trading? Try a <a href="#">Demo account</a>.</p>
+                
+              <p class="p2">Terms and Conditions apply<span class="red">*</span>. To read the full T&Cs, <a href="#">click here.</a></p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section-crypto">
+          <div class="container">
+            <div class="section-crypto__items">
+              <div class="crypto" data-crypto="btc">
+                <div class="crypto__head">
+                  <div class="crypto__icon" data-icon></div>
+
+                  <span class="crypto__title" data-symbol></span>
+
+                  <span class="crypto__name" data-name></span>
+                </div>
+
+                <div class="crypto__body">
+                  <p class="crypto__price">
+                    $
+                    <span data-price></span>
+                  </p>
+
+                  <p class="crypto__meta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+                    
+                    <span data-meta></span>
+                    %
+                  </p>
+                </div>
+              </div>
+
+              <div class="crypto" data-crypto="eth">
+                <div class="crypto__head">
+                  <div class="crypto__icon" data-icon></div>
+
+                  <span class="crypto__title" data-symbol></span>
+
+                  <span class="crypto__name" data-name></span>
+                </div>
+
+                <div class="crypto__body">
+                  <p class="crypto__price">
+                    $<span data-price></span>
+                  </p>
+
+                  <span class="crypto__meta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+                    
+                    <span data-meta></span>%
+                  </span>
+                </div>
+              </div>
+
+              <div class="crypto" data-crypto="xrp">
+                <div class="crypto__head">
+                  <div class="crypto__icon" data-icon></div>
+
+                  <span class="crypto__title" data-symbol></span>
+
+                  <span class="crypto__name" data-name></span>
+                </div>
+
+                <div class="crypto__body">
+                  <p class="crypto__price">
+                    $<span data-price></span>
+                  </p>
+
+                  <span class="crypto__meta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+                    
+                    <span data-meta></span>%
+                  </span>
+                </div>
+              </div>
+
+              <div class="crypto" data-crypto="ltc">
+                <div class="crypto__head">
+                  <div class="crypto__icon" data-icon></div>
+
+                  <span class="crypto__title" data-symbol></span>
+
+                  <span class="crypto__name" data-name></span>
+                </div>
+
+                <div class="crypto__body">
+                  <p class="crypto__price">
+                    $<span data-price></span>
+                  </p>
+
+                  <span class="crypto__meta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+                    
+                    <span data-meta></span>%
+                  </span>
+                </div>
+              </div>
+
+              <div class="crypto" data-crypto="bch">
+                <div class="crypto__head">
+                  <div class="crypto__icon" data-icon></div>
+
+                  <span class="crypto__title" data-symbol></span>
+
+                  <span class="crypto__name" data-name></span>
+                </div>
+
+                <div class="crypto__body">
+                  <p class="crypto__price">
+                    $<span data-price></span>
+                  </p>
+
+                  <span class="crypto__meta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+                    
+                    <span data-meta></span>%
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-services">
+          <div class="container">
+            <div class="section-services__image">
+              <img src="assets/zero-number.png" alt="zero">
+            </div>
+            
+            <div class="section-services__content">
+              <div class="section-services__head">
+                <h2>Why <strong>Trade</strong> with XM?</h2>
+                <p>We have been providing traders around the world with the same <strong>premium experience</strong> for over a decade. As an <strong>industry-leader</strong>, we know what the modern trader needs to be <strong>successful</strong> in the markets.</p>
+              </div>
+              <div class="section-services__body">
+                <div class="services">
+                  <div class="service service--big-vertically">
+                    <img src="assets/flash.png" alt="flash" />
+                    <h3>Superior Trade Execution</h3>
+                    <p><strong>99</strong>% of trades are executed in <strong>less than a second</strong>, with no requotes or rejections.</p>
+                  </div>
+
+                  <div class="service service--big-horizontally">
+                    <img src="assets/percentage.png" alt="percentage" />
+                    <h3>Competitive Pricing</h3>
+                    <p>We offer some of the <strong>lowest spreads</strong> and we don’t charge commissions.</p>
+                  </div>
+                  <div class="service">
+                    <img src="assets/tech.png" alt="tech" />
+                    <h3>Advanced Technology</h3>
+                    <p>Trade on <strong>MT4</strong> or <strong>MT5</strong>, with expert tools, across desktop, web and mobile.</p>
+                  </div>
+                  <div class="service">
+                    <h3>Start with $5</h3>
+                    <p>Start trading your preferred instruments with as little as a <strong>$5 minimum deposit</strong>.</p>
+                    <img src="assets/dollar.png" alt="dollar" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="container">
+            <div class="contact__head">
+              <h2>- Register Here -</h2>
+
+              <p>Join us to celebrate our biggest night of the year.</p>
+            </div>
+            
+            <div class="contact__body">
+              <ul class="list-contacts">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23 27"><path fill="currentColor" d="M11.121 20.309c-.372.338-.745.338-1.117 0l-3.25-3.25c-.339-.373-.339-.745 0-1.118.372-.338.745-.338 1.117 0l2.691 2.641 5.13-5.078c.372-.339.744-.339 1.117 0 .338.372.338.745 0 1.117L11.12 20.31ZM6.5 3.5h9.75V1.062c.034-.507.305-.778.813-.812.507.034.778.305.812.813V3.5H19.5c.914.034 1.676.355 2.285.965.61.61.931 1.37.965 2.285V23c-.034.914-.355 1.676-.965 2.285-.61.61-1.37.931-2.285.965H3.25c-.914-.034-1.676-.355-2.285-.965C.355 24.675.034 23.915 0 23V6.75c.034-.914.355-1.676.965-2.285.61-.61 1.37-.931 2.285-.965h1.625V1.062c.034-.507.305-.778.813-.812.507.034.778.305.812.813V3.5ZM1.625 23c0 .474.152.863.457 1.168.305.305.694.457 1.168.457H19.5c.474 0 .863-.152 1.168-.457.305-.305.457-.694.457-1.168V10h-19.5v13Zm0-16.25v1.625h19.5V6.75c0-.474-.152-.863-.457-1.168-.305-.305-.694-.457-1.168-.457H3.25c-.474 0-.863.152-1.168.457-.305.305-.457.694-.457 1.168Z"/></svg>
+
+                  <p>05 NOVEMBER 2022</p>
+                </li>
+
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 27"><path fill="currentColor" d="M13.813 13.25c0 .27-.119.49-.356.66l-4.875 3.25c-.44.237-.812.17-1.117-.203-.237-.44-.17-.813.203-1.117l4.52-3.047V5.938c.033-.508.304-.78.812-.813.508.034.779.305.813.813v7.312Zm12.187 0c-.034 2.438-.626 4.621-1.777 6.55a12.88 12.88 0 0 1-4.672 4.673c-1.93 1.15-4.113 1.743-6.551 1.777-2.438-.034-4.621-.626-6.55-1.777A12.88 12.88 0 0 1 1.776 19.8C.627 17.87.034 15.688 0 13.25c.034-2.438.626-4.621 1.777-6.55A12.88 12.88 0 0 1 6.45 2.026C8.38.877 10.563.284 13 .25c2.438.034 4.621.626 6.55 1.777A12.88 12.88 0 0 1 24.224 6.7c1.15 1.93 1.743 4.114 1.777 6.551ZM13 1.875c-2.133.034-4.046.559-5.738 1.574a10.643 10.643 0 0 0-4.063 4.063c-1.015 1.692-1.54 3.605-1.574 5.738.034 2.133.559 4.046 1.574 5.738a10.644 10.644 0 0 0 4.063 4.063c1.692 1.015 3.605 1.54 5.738 1.574 2.133-.034 4.046-.559 5.738-1.574a10.645 10.645 0 0 0 4.063-4.063c1.015-1.692 1.54-3.605 1.574-5.738-.034-2.133-.559-4.046-1.574-5.738a10.644 10.644 0 0 0-4.063-4.063C17.046 2.434 15.133 1.91 13 1.875Z"/></svg>
+                  
+                  <p>16:00 – 23:00</p>
+                </li>
+
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 27"><path fill="currentColor" d="M13.813 10c-.034 1.151-.424 2.116-1.168 2.895-.78.744-1.744 1.134-2.895 1.168-1.151-.034-2.116-.424-2.895-1.168-.744-.78-1.134-1.744-1.168-2.895.034-1.151.424-2.116 1.168-2.895.78-.744 1.744-1.134 2.895-1.168 1.151.034 2.116.424 2.895 1.168.744.78 1.134 1.744 1.168 2.895ZM9.75 12.438c.677-.034 1.253-.271 1.727-.711.44-.474.677-1.05.71-1.727-.033-.677-.27-1.253-.71-1.727-.474-.44-1.05-.677-1.727-.71-.677.033-1.253.27-1.727.71-.44.474-.677 1.05-.71 1.727.033.677.27 1.253.71 1.727.474.44 1.05.677 1.727.71ZM19.5 10c-.068 1.523-.61 3.284-1.625 5.281a51.058 51.058 0 0 1-3.555 5.79c-1.32 1.895-2.437 3.402-3.351 4.519-.339.406-.745.61-1.219.61-.474 0-.88-.204-1.219-.61-.914-1.117-2.048-2.624-3.402-4.52a46.205 46.205 0 0 1-3.504-5.789C.609 13.284.068 11.523 0 10c.068-2.776 1.016-5.078 2.844-6.906C4.672 1.266 6.974.318 9.75.25c2.776.068 5.078 1.016 6.906 2.844C18.484 4.922 19.432 7.224 19.5 10ZM9.75 1.875c-2.302.068-4.215.863-5.738 2.387C2.488 5.785 1.692 7.698 1.625 10c0 .813.288 1.879.863 3.2a33.559 33.559 0 0 0 2.184 4.214 53.793 53.793 0 0 0 2.691 3.961 91.213 91.213 0 0 0 2.387 3.148 91.113 91.113 0 0 0 2.387-3.148 53.78 53.78 0 0 0 2.691-3.96 33.558 33.558 0 0 0 2.184-4.216c.575-1.32.863-2.386.863-3.199-.068-2.302-.863-4.215-2.387-5.738-1.523-1.524-3.436-2.32-5.738-2.387Z"/></svg>
+                  
+                  <p>Centara Grand & Bangkok Convention Centre, Bangkok</p>
+                </li>
+              </ul>
+
+              <form action="?" class="form">
+                <div class="form__body">
+                  <div class="form__grid">
+                    <div class="form__item">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" class="field valid">
+                    </div>
+                    
+                    <div class="form__item">
+                      <label for="password">Password:</label>
+                      <input type="password" id="password" class="field invalid">
+
+                      <ul class="form__info">
+                        <li class="valid">8 - 15 characters</li>
+                        <li class="invalid">1 or more numbers</li>
+                        <li>1 or more lower case letters</li>
+                        <li>1 or more upper case letters</li>
+                        <li>1 or more special characters (#[]()@$&*!?|,.^/\+_-)</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="form__foot">
+                    <button type="submit" class="btn form__btn" disabled>REGISTER NOW</button>
+
+                    <p class="p1">Don’t have an account? <a href="#">Create one here</a> and register for the event</p>
+                      
+                    <p class="p2">Terms and Conditions apply<span class="red">*</span>. To read the full T&Cs, click <a href="#">here</a>.</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
